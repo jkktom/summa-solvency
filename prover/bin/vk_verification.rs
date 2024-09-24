@@ -108,3 +108,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     Ok(())
 }
+
+//Start the hardhat evironment
+//cargo run --release --bin vk_verification 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9 http://127.0.0.1:8545/
+//refer to summa-solvency/backend/scripts/update_verifier_contract.sh for the udpating and starting background setups
